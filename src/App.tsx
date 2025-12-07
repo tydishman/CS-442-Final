@@ -1,4 +1,5 @@
-import { type FormEvent, useState } from "react";
+import { type FormEvent } from "react";
+import { useState } from "react";
 import "./App.css";
 
 import type { Schema } from "../amplify/data/resource"; // Type-only import
