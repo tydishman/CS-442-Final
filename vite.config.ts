@@ -6,8 +6,7 @@ import polyfillNode from 'rollup-plugin-polyfill-node';
 export default defineConfig({
   plugins: [react(), polyfillNode()],
   define: {
-    "process.env": {},
-    "process.browser": true,
+    "process.browser": true
   },
   resolve: {
       alias: [
